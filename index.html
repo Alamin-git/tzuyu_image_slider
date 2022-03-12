@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            background-color: #d0ebdcad;
+            padding: 30px;
+            position: relative;
+        }
+
+        .slider-img {
+            height: 90vh;
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            border-radius: 10px;
+        }
+
+        .button {
+            position: absolute;
+            top: 50%;
+            left: 47%;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+        <img id="btn" class="button" onclick=startSlider() src="images/play-button.svg" alt="">
+        <img class="slider-img" id="slider" src="images/abc-(50).gif" alt="">
+    </div>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
