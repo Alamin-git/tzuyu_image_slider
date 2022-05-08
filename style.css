@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d0ebdcad;
+}
+
+.image {
+  background-color: #d0ebdcad;
+  padding: 30px;
+  position: relative;
+}
+
+.slider-img {
+  height: 90vh;
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 10px;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    padding: 10px;
+  }
+  .slider-img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+}
